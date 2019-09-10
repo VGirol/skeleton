@@ -1,0 +1,16 @@
+#!/bin/bash
+
+BASE_PATH="./scripts"
+PHPCS_PATH="$BASE_PATH/phpcs.sh"
+PHPMD_PATH="$BASE_PATH/phpmd.sh"
+PHPCPD_PATH="$BASE_PATH/phpcpd.sh"
+PHPMND_PATH="$BASE_PATH/phpmnd.sh"
+PHPSTAN_PATH="$BASE_PATH/phpstan.sh"
+PHAN_PATH="$BASE_PATH/phan.sh"
+
+. "$PHPCS_PATH"
+. "$PHPMD_PATH"
+. "$PHPCPD_PATH"
+. "$PHPMND_PATH"
+. "$PHPSTAN_PATH"
+. "$PHAN_PATH"
