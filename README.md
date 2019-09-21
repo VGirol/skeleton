@@ -43,6 +43,10 @@ $skeleton = new League\Skeleton();
 echo $skeleton->echoPhrase('Hello, League!');
 ```
 
+## Documentation
+
+The API documentation is available in XHTML format at the url [http://:package_name.girol.fr/docs/index.xhtml](http://:package_name.girol.fr/docs/index.xhtml).
+
 ## Change log
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
