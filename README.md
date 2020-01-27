@@ -27,10 +27,27 @@ tests/
 vendor/
 ```
 
+## Technologies
 
-## Install
+- PHP 7.2+
 
-Via Composer
+## Installation
+
+To install through composer, simply put the following in your `composer.json` file:
+
+```json
+{
+    "require-dev": {
+        ":vendor/:package_name": "dev-master"
+    }
+}
+```
+
+And then run `composer install` from the terminal.
+
+### Quick Installation
+
+Above installation can also be simplified by using the following command:
 
 ``` bash
 $ composer require :vendor/:package_name
@@ -79,7 +96,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-travis]: https://img.shields.io/travis/:vendor/:package_name/master.svg?style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/:vendor/:package_name.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/:vendor/:package_name.svg?style=flat-square
-[ico-mutation]: https://badge.stryker-mutator.io/github.com/:vendor/:package_name/master
+[ico-mutation]: https://img.shields.io/endpoint?style=flat-square&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2F:vendor%2F:package_name%2Fmaster
 [ico-downloads]: https://img.shields.io/packagist/dt/:vendor/:package_name.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/:vendor/:package_name
@@ -88,5 +105,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/:vendor/:package_name
 [link-downloads]: https://packagist.org/packages/:vendor/:package_name
 [link-author]: https://github.com/:author_username
-[link-mutation]: https://infection.github.io
+[link-mutation]: https://dashboard.stryker-mutator.io/reports/github.com/:vendor/:package_name/master
 [link-contributors]: ../../contributors
